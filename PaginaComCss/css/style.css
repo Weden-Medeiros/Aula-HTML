@@ -61,3 +61,13 @@
 .colaboradores .cards img{
     width: 80px;
 }
+iframe{
+    margin: auto;
+    display: block;
+}
+footer{
+    padding: 20px;
+    margin: 10px 0 5px 0;
+    background-color: #ccc;
+    text-align: right;
+}
