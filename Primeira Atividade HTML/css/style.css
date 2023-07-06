@@ -4,19 +4,11 @@
     
 }
 .nav-bar{
-    background-color: hsl(216, 81%, 40%);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    height: 120px;
-    width: 100%; 
+    background-color: hsl(0, 0%, 100%);
 }
 .nav-bar .logo img{
-    width: 150px;
-    display: flex;
-    align-items: center;
-    margin-left: 15px;
+    margin: auto;
+    display: block;
 }
 .nav-bar .links_paginas ul{
     display: flex;
@@ -71,3 +63,10 @@ footer{
     background-color: #ccc;
     text-align: right;
 }
+.modal {
+    display: none;
+  }
+  
+  .modal:target {
+    display: block;
+  }
