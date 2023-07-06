@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Camisetas de Animes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .shirt {
+      margin-bottom: 20px;
+    }
+    .shirt h2 {
+      margin-bottom: 10px;
+    }
+    .shirt img {
+      max-width: 100%;
+      height: auto;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    .contact-form input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact-form input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Camisetas de Animes</h1>
+    
+    <!-- Lista de camisetas -->
+    <div class="shirts">
+      <div class="shirt">
+        <h2>Camiseta 1</h2>
+        <img src="<URL>" alt="Imagem da camiseta 1">
+        <p>Breve descrição da camiseta 1.</p>
+      </div>
+      <div class="shirt">
+        <h2>Camiseta 2</h2>
+        <img src="<URL>" alt="Imagem da camiseta 2">
+        <p>Breve descrição da camiseta 2.</p>
+      </div>
+      <div class="shirt">
+        <h2>Camiseta 3</h2>
+        <img src="<URL>" alt="Imagem da camiseta 3">
+        <p>Breve descrição da camiseta 3.</p>
+      </div>
+      <div class="shirt">
+        <h2>Camiseta 4</h2>
+        <img src="<URL>" alt="Imagem da camiseta 4">
+        <p>Breve descrição da camiseta 4.</p>
+      </div>
+      <div class="shirt">
+        <h2>Camiseta 5</h2>
+        <img src="<URL>" alt="Imagem da camiseta 5">
+        <p>Breve descrição da camiseta 5.</p>
+      </div>
+       <div class="shirt">
+        <h2>Camiseta 6</h2>
+        <img src="<URL>" alt="Imagem da camiseta 6">
+        <p>Breve descrição da camiseta 6.</p>
+      </div>
+
+    </div>
+
+    <!-- Formulário de contato -->
+    <h2>Contato</h2>
+    <form class="contact-form" action="<URL>" method="post">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mensagem:</label>
+      <textarea id="message" name="message"></textarea>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+    <!-- Sobre a empresa -->
+    <h2>Sobre a empresa</h2>
+    <p>Aqui você pode escrever um texto sobre a empresa.</p>
+
+    <!-- História da empresa -->
+    <h2>História da empresa</h2>
+    <p>Aqui você pode escrever um texto sobre a história da empresa.</p>
+
+  </div>
+</body>
+</html>

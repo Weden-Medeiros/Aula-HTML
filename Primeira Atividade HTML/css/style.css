@@ -41,26 +41,16 @@
 .historia p{
     text-align:center;
 }
-.colaboradores{
-    text-align: center;
-}
-.colaboradores .cards{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    padding: 100px 0;
-}
-.colaboradores .cards img{
-    width: 80px;
-}
+
 iframe{
     margin: auto;
     display: block;
 }
-footer{
+
+.footer{
     padding: 20px;
     margin: 10px 0 5px 0;
-    background-color: #ccc;
+    background-color: #fa8f0d;
     text-align: right;
 }
 .modal {
@@ -70,3 +60,74 @@ footer{
   .modal:target {
     display: block;
   }
+.novosprodutos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fa8f0d;
+}
+.subtitle {
+    font-size: larger;
+    color: #050505;
+    font-weight: 800;
+    margin: auto;  
+    text-align: center;
+}
+.std .s7{
+color: #636363;
+font-family: Georgia,Times,"Times New Roman",serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+}
+
+.h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    color: #636363;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.galery {
+    width: 640px;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+label {
+    margin-top: 10px;
+}
+input, textarea {
+    margin-top: 5px;
+}
+.cadastro{
+    
+}
