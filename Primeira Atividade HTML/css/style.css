@@ -76,10 +76,11 @@ iframe{
 .std .s7{
 color: #636363;
 font-family: Georgia,Times,"Times New Roman",serif;
-font-size: 14px;
+font-size: 17px;
 font-style: italic;
-line-height: 24px;
+line-height: 28px;
 }
+
 
 .h1{
     text-transform: uppercase;
@@ -129,5 +130,15 @@ input, textarea {
     margin-top: 5px;
 }
 .cadastro{
+    
+}
+.quemsomos{
+    margin: auto;
+    display: block;
+
+}
+#container1
+{
+    width: 100%;
     
 }
