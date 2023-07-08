@@ -1,0 +1,10 @@
+nav ul a{
+    font-weight: bold !important;
+}
+nav ul li a:hover{
+    margin-top: 3px;
+    /*color: aqua !important;*/
+}
+.card{
+    color: #fff;
+}
