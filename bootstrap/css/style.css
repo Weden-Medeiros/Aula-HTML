@@ -5,6 +5,13 @@ nav ul li a:hover{
     margin-top: 3px;
     /*color: aqua !important;*/
 }
-.card-header{
+.card-header, .bloco-ofrecemos, footer{
     color: #fff;
+}
+.oferecemos{
+    color: rgb(150, 147, 153);
+}
+.meu_button{
+    background-color: blue !important;
+    
 }
