@@ -1,0 +1,8 @@
+#card-tarefas{
+    background: linear-gradient(135deg, rgb(41, 153, 233), rgb(39, 76, 179));
+    border-radius: 10px;
+}
+#card-tarefas h3{
+    color: #fff;
+    text-shadow:  1px 1px 1px black;
+}
